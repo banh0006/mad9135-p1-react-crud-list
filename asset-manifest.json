@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/banh0006/mad9135-p1-react-crud-list/static/css/main.ff7f972e.chunk.css",
+    "main.js": "/banh0006/mad9135-p1-react-crud-list/static/js/main.23523e47.chunk.js",
+    "main.js.map": "/banh0006/mad9135-p1-react-crud-list/static/js/main.23523e47.chunk.js.map",
+    "runtime-main.js": "/banh0006/mad9135-p1-react-crud-list/static/js/runtime-main.beeca87e.js",
+    "runtime-main.js.map": "/banh0006/mad9135-p1-react-crud-list/static/js/runtime-main.beeca87e.js.map",
+    "static/css/2.510409cd.chunk.css": "/banh0006/mad9135-p1-react-crud-list/static/css/2.510409cd.chunk.css",
+    "static/js/2.7497e9ef.chunk.js": "/banh0006/mad9135-p1-react-crud-list/static/js/2.7497e9ef.chunk.js",
+    "static/js/2.7497e9ef.chunk.js.map": "/banh0006/mad9135-p1-react-crud-list/static/js/2.7497e9ef.chunk.js.map",
+    "index.html": "/banh0006/mad9135-p1-react-crud-list/index.html",
+    "precache-manifest.abf03af242bd214468306fea55e88b75.js": "/banh0006/mad9135-p1-react-crud-list/precache-manifest.abf03af242bd214468306fea55e88b75.js",
+    "service-worker.js": "/banh0006/mad9135-p1-react-crud-list/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/banh0006/mad9135-p1-react-crud-list/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.ff7f972e.chunk.css.map": "/banh0006/mad9135-p1-react-crud-list/static/css/main.ff7f972e.chunk.css.map",
+    "static/media/logo.svg": "/banh0006/mad9135-p1-react-crud-list/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.beeca87e.js",
+    "static/css/2.510409cd.chunk.css",
+    "static/js/2.7497e9ef.chunk.js",
+    "static/css/main.ff7f972e.chunk.css",
+    "static/js/main.23523e47.chunk.js"
+  ]
+}
