@@ -1,0 +1,22 @@
+.animal-card {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1rem 0;
+}
+
+.animal-image > img {
+    width: 80%;
+}
+
+.animal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+}
+
+.cancel, .save-change {
+    width: 100%;
+}
