@@ -17,9 +17,9 @@ function AnimalCard(props) {
                     <img src={props.animal.imageLink} alt="Animal"/>
                 </Col>
                 <Col xs="6"className="animal-info">
-                    <h1 className="animal-name">{props.animal.name}</h1>
-                    <h3 className='animal-family'>{props.animal.family}</h3>
-                    <h3 className='animal-class'>{props.animal.class}</h3>
+                    <h2 className="animal-name">{props.animal.name}</h2>
+                    <h4 className='animal-family'>Family: {props.animal.family}</h4>
+                    <h4 className='animal-class'>Class: {props.animal.class}</h4>
                 </Col>
                 <Col xs="2" className="control">
                     <Button color="primary" className='editButton' id={`toggler${props.animal.id}`} onClick={() => props.editFunction(props.animal)}>Edit</Button>

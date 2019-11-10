@@ -1,5 +1,6 @@
 import React from 'react'
 import AnimalCard from './AnimalCard'
+import {Container, Row} from 'reactstrap';
 
 class Animals extends React.Component {
     constructor(props){
@@ -12,7 +13,6 @@ class Animals extends React.Component {
         // this.editFunction = this.editFunction.bind(this)
     }
     componentDidMount() {
-        console.log(this.props)
         this.setState({animals: this.props.animalList})
     }
 
@@ -31,7 +31,7 @@ class Animals extends React.Component {
     }
 
     render() {
-        let animalCards = <div> No Animal on the list</div>
+        let animalCards = <Row> No Animal on the list</Row>
         
         if (this.state.animals.length > 0) {
              animalCards = this.state.animals.map(animal => (<AnimalCard 
@@ -44,7 +44,12 @@ class Animals extends React.Component {
         }
 
         return(
-            (<React.Fragment>{animalCards}</React.Fragment>)
+            <React.Fragment>
+                <Container>
+                    <Row className="justify-content-md-center"><h1 className="list-animal-title">Animal List</h1></Row>
+                    {animalCards}
+                </Container>
+            </React.Fragment>
         );
     }
 }

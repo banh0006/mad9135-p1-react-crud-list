@@ -17,6 +17,14 @@
     flex-direction: column;
 }
 
+.collapse > form {
+    margin: 2rem 0;
+}
+
+.editButton {
+    margin: 2rem 0 1rem 0;
+}
+
 .cancel, .save-change {
     width: 100%;
 }

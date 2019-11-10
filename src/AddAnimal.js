@@ -1,6 +1,6 @@
 import React from 'react'
 import cuid from 'cuid'
-import {Button, Col, Form, FormGroup, Label, Input} from 'reactstrap';
+import {Button, Col, Form, FormGroup, Label, Input, Container, Row} from 'reactstrap';
 
 
 class AddAnimal extends React.Component {
@@ -17,7 +17,6 @@ class AddAnimal extends React.Component {
     handleFormSubmit(event) {
         event.preventDefault()
         let id = cuid()
-        console.log(id)
         const newAnimal = {
             id: id,
             name: this.state.name,
@@ -41,37 +40,40 @@ class AddAnimal extends React.Component {
     
     render () {
         return (
-           <Form onSubmit={this.handleFormSubmit}>
-               <FormGroup className="animalName">
-                   <Label for="name" sm={2}>Animal Name</Label>
-                   <Col sm={10}>
-                        <Input type="text" name="name" value={this.state.name} onChange={this.handleInputChange} />
-                    </Col>
-               </FormGroup>
-               <FormGroup className="animalFamily">
-                   <Label for="family" sm={2}>Animal Family</Label>
-                   <Col sm={10}>
-                        <Input type="text" name="family" value={this.state.family} onChange={this.handleInputChange} />
-                    </Col>
-               </FormGroup>
-               <FormGroup className="animalClass">
-                   <Label for="class" sm={2}>Animal Class</Label>
-                   <Col sm={10}>
-                        <Input type="text" name="class" value={this.state.class} onChange={this.handleInputChange} />
-                    </Col>
-               </FormGroup>
-               <FormGroup className="animalImageLink">
-                   <Label for="imageLink" sm={2}>Animal Image Link</Label>
-                   <Col sm={10}>
-                        <Input type="text" name="imageLink" value={this.state.imageLink} onChange={this.handleInputChange} />
-                    </Col>
-               </FormGroup>
-               <FormGroup className="submitButton">
-                    <Col sm="2">
-                        <Button color="primary" type="submit">Add to list</Button>
-                    </Col>
-               </FormGroup>
-           </Form>
+            <Container>
+                <Row className="justify-content-md-center"><h1 className="add-animal-title">Add new animal</h1></Row>
+                <Form onSubmit={this.handleFormSubmit}>
+                    <FormGroup className="animalName">
+                        <Label for="name" sm={2}>Animal Name</Label>
+                        <Col sm={10}>
+                                <Input type="text" name="name" value={this.state.name} onChange={this.handleInputChange} />
+                            </Col>
+                    </FormGroup>
+                    <FormGroup className="animalFamily">
+                        <Label for="family" sm={2}>Animal Family</Label>
+                        <Col sm={10}>
+                                <Input type="text" name="family" value={this.state.family} onChange={this.handleInputChange} />
+                            </Col>
+                    </FormGroup>
+                    <FormGroup className="animalClass">
+                        <Label for="class" sm={2}>Animal Class</Label>
+                        <Col sm={10}>
+                                <Input type="text" name="class" value={this.state.class} onChange={this.handleInputChange} />
+                            </Col>
+                    </FormGroup>
+                    <FormGroup className="animalImageLink">
+                        <Label for="imageLink" sm={2}>Animal Image Link</Label>
+                        <Col sm={10}>
+                                <Input type="text" name="imageLink" value={this.state.imageLink} onChange={this.handleInputChange} />
+                            </Col>
+                    </FormGroup>
+                    <FormGroup className="submitButton">
+                            <Col sm="2">
+                                <Button color="primary" type="submit" style={{width: "100%"}}>Add to list</Button>
+                            </Col>
+                    </FormGroup>
+                </Form>
+           </Container>
         );
     }
 }
