@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mad9135-p1-react-crud-list/static/css/main.ff7f972e.chunk.css",
-    "main.js": "/mad9135-p1-react-crud-list/static/js/main.5a2eb630.chunk.js",
-    "main.js.map": "/mad9135-p1-react-crud-list/static/js/main.5a2eb630.chunk.js.map",
-    "runtime-main.js": "/mad9135-p1-react-crud-list/static/js/runtime-main.c813c03e.js",
-    "runtime-main.js.map": "/mad9135-p1-react-crud-list/static/js/runtime-main.c813c03e.js.map",
-    "static/css/2.510409cd.chunk.css": "/mad9135-p1-react-crud-list/static/css/2.510409cd.chunk.css",
-    "static/js/2.7497e9ef.chunk.js": "/mad9135-p1-react-crud-list/static/js/2.7497e9ef.chunk.js",
-    "static/js/2.7497e9ef.chunk.js.map": "/mad9135-p1-react-crud-list/static/js/2.7497e9ef.chunk.js.map",
-    "index.html": "/mad9135-p1-react-crud-list/index.html",
-    "precache-manifest.8e2dec8f7bea451fdb9eff2847e01dd2.js": "/mad9135-p1-react-crud-list/precache-manifest.8e2dec8f7bea451fdb9eff2847e01dd2.js",
-    "service-worker.js": "/mad9135-p1-react-crud-list/service-worker.js",
-    "static/css/2.510409cd.chunk.css.map": "/mad9135-p1-react-crud-list/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.ff7f972e.chunk.css.map": "/mad9135-p1-react-crud-list/static/css/main.ff7f972e.chunk.css.map",
-    "static/media/logo.svg": "/mad9135-p1-react-crud-list/static/media/logo.25bf045c.svg"
+    "main.css": "myanimal.tk/static/css/main.ff7f972e.chunk.css",
+    "main.js": "myanimal.tk/static/js/main.c834f2c1.chunk.js",
+    "main.js.map": "myanimal.tk/static/js/main.c834f2c1.chunk.js.map",
+    "runtime-main.js": "myanimal.tk/static/js/runtime-main.2a1d40b9.js",
+    "runtime-main.js.map": "myanimal.tk/static/js/runtime-main.2a1d40b9.js.map",
+    "static/css/2.510409cd.chunk.css": "myanimal.tk/static/css/2.510409cd.chunk.css",
+    "static/js/2.7497e9ef.chunk.js": "myanimal.tk/static/js/2.7497e9ef.chunk.js",
+    "static/js/2.7497e9ef.chunk.js.map": "myanimal.tk/static/js/2.7497e9ef.chunk.js.map",
+    "index.html": "myanimal.tk/index.html",
+    "precache-manifest.6dca4be2842c5998660a555094a20520.js": "myanimal.tk/precache-manifest.6dca4be2842c5998660a555094a20520.js",
+    "service-worker.js": "myanimal.tk/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "myanimal.tk/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.ff7f972e.chunk.css.map": "myanimal.tk/static/css/main.ff7f972e.chunk.css.map",
+    "static/media/logo.svg": "myanimal.tk/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c813c03e.js",
+    "static/js/runtime-main.2a1d40b9.js",
     "static/css/2.510409cd.chunk.css",
     "static/js/2.7497e9ef.chunk.js",
     "static/css/main.ff7f972e.chunk.css",
-    "static/js/main.5a2eb630.chunk.js"
+    "static/js/main.c834f2c1.chunk.js"
   ]
 }
