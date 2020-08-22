@@ -11,3 +11,6 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
+// "homepage": "https://banh0006.github.io/mad9135-p1-react-crud-list",
