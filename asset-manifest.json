@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff7f972e.chunk.css",
-    "main.js": "/static/js/main.ffbd3b28.chunk.js",
-    "main.js.map": "/static/js/main.ffbd3b28.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.065bd361.js",
-    "runtime-main.js.map": "/static/js/runtime-main.065bd361.js.map",
-    "static/css/2.510409cd.chunk.css": "/static/css/2.510409cd.chunk.css",
-    "static/js/2.7497e9ef.chunk.js": "/static/js/2.7497e9ef.chunk.js",
-    "static/js/2.7497e9ef.chunk.js.map": "/static/js/2.7497e9ef.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.fd4347968169c85902f2dc220ea69899.js": "/precache-manifest.fd4347968169c85902f2dc220ea69899.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.510409cd.chunk.css.map": "/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.ff7f972e.chunk.css.map": "/static/css/main.ff7f972e.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.25bf045c.svg"
+    "main.css": "/mad9135-p1-react-crud-list/static/css/main.ff7f972e.chunk.css",
+    "main.js": "/mad9135-p1-react-crud-list/static/js/main.eee648d1.chunk.js",
+    "main.js.map": "/mad9135-p1-react-crud-list/static/js/main.eee648d1.chunk.js.map",
+    "runtime-main.js": "/mad9135-p1-react-crud-list/static/js/runtime-main.c813c03e.js",
+    "runtime-main.js.map": "/mad9135-p1-react-crud-list/static/js/runtime-main.c813c03e.js.map",
+    "static/css/2.510409cd.chunk.css": "/mad9135-p1-react-crud-list/static/css/2.510409cd.chunk.css",
+    "static/js/2.7497e9ef.chunk.js": "/mad9135-p1-react-crud-list/static/js/2.7497e9ef.chunk.js",
+    "static/js/2.7497e9ef.chunk.js.map": "/mad9135-p1-react-crud-list/static/js/2.7497e9ef.chunk.js.map",
+    "index.html": "/mad9135-p1-react-crud-list/index.html",
+    "precache-manifest.945eb219c6a8c1f0707b9a95b37c5edc.js": "/mad9135-p1-react-crud-list/precache-manifest.945eb219c6a8c1f0707b9a95b37c5edc.js",
+    "service-worker.js": "/mad9135-p1-react-crud-list/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/mad9135-p1-react-crud-list/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.ff7f972e.chunk.css.map": "/mad9135-p1-react-crud-list/static/css/main.ff7f972e.chunk.css.map",
+    "static/media/logo.svg": "/mad9135-p1-react-crud-list/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.065bd361.js",
+    "static/js/runtime-main.c813c03e.js",
     "static/css/2.510409cd.chunk.css",
     "static/js/2.7497e9ef.chunk.js",
     "static/css/main.ff7f972e.chunk.css",
-    "static/js/main.ffbd3b28.chunk.js"
+    "static/js/main.eee648d1.chunk.js"
   ]
 }
